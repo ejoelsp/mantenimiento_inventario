@@ -132,7 +132,7 @@ const createOrder = () => {
     <Head title="Product"/>
     <AuthenticatedLayout>
         <template #breadcrumb>
-            POS
+            SALES
         </template>
         <div class="flex flex-wrap">
             <div class="w-full px-4">
