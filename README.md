@@ -80,6 +80,16 @@ Have ideas to improve the system? Feel free to:
 
 Licensed under the [MIT License](LICENSE).
 
+
+
+
+## Documentación
+
+El informe completo del mantenimiento del sistema se encuentra disponible en:
+
+📄 docs/Informe_Mantenimiento_Inventario_SPA_Erick_Sanchez.docx
+
+
 ---
 
 > Find me on [GitHub](https://github.com/mamun724682) &nbsp;&middot;&nbsp; [LinkedIn](https://www.linkedin.com/in/mamun724682)
