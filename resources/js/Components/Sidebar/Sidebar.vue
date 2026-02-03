@@ -74,84 +74,99 @@
                 <hr class="my-4 md:min-w-full"/>
                 <!-- Navigation -->
                 <ul class="md:flex-col md:min-w-full flex flex-col list-none">
+
+                    <!-- MAIN -->
+                    <li class="mt-2 mb-1 px-4 text-xs font-bold tracking-widest text-blueGray-400 uppercase">
+                        Main
+                    </li>
                     <SidebarItem
                         name="Dashboard"
                         routeName="dashboard"
                         icon="fas fa-tv"
                     />
 
+                    <!-- SALES -->
+                    <li class="mt-6 mb-1 px-4 text-xs font-bold tracking-widest text-blueGray-400 uppercase">
+                        Sales
+                    </li>
                     <SidebarItem
-                        name="POS"
+                        name="Sales"
                         routeName="carts.index"
                         icon="fas fa-shopping-cart"
                     />
-
                     <SidebarItem
                         name="Orders"
                         routeName="orders.index"
                         icon="fas fa-database"
                     />
-
                     <SidebarItem
-                        name="Transactions"
-                        routeName="transactions.index"
-                        icon="fas fa-dollar-sign"
+                        name="Customers"
+                        routeName="customers.index"
+                        icon="fas fa-users"
                     />
 
+                    <!-- INVENTORY -->
+                    <li class="mt-6 mb-1 px-4 text-xs font-bold tracking-widest text-blueGray-400 uppercase">
+                        Inventory
+                    </li>
+                    <SidebarItem
+                        name="Products"
+                        routeName="products.index"
+                        icon="fas fa-shopping-bag"
+                    />
                     <SidebarItem
                         name="Categories"
                         routeName="categories.index"
                         icon="fas fa-list"
                     />
-
                     <SidebarItem
                         name="Unit Types"
                         routeName="unit-types.index"
                         icon="fa fa-balance-scale"
                     />
-
                     <SidebarItem
                         name="Suppliers"
                         routeName="suppliers.index"
                         icon="fas fa-users-cog"
                     />
 
+                    <!-- FINANCE -->
+                    <li class="mt-6 mb-1 px-4 text-xs font-bold tracking-widest text-blueGray-400 uppercase">
+                        Finance
+                    </li>
                     <SidebarItem
-                        name="Products"
-                        routeName="products.index"
-                        icon="fas fa-shopping-bag"
+                        name="Transactions"
+                        routeName="transactions.index"
+                        icon="fas fa-dollar-sign"
                     />
-
                     <SidebarItem
-                        name="Customer"
-                        routeName="customers.index"
-                        icon="fas fa-users"
+                        name="Expenses"
+                        routeName="expenses.index"
+                        icon="fas fa-book"
                     />
-
-                    <SidebarItem
-                        name="Employee"
-                        routeName="employees.index"
-                        icon="fas fa-house-user"
-                    />
-
                     <SidebarItem
                         name="Salary"
                         routeName="salaries.index"
                         icon="fas fa-money-bill"
                     />
 
+                    <!-- ADMINISTRATION -->
+                    <li class="mt-6 mb-1 px-4 text-xs font-bold tracking-widest text-blueGray-400 uppercase">
+                        Administration
+                    </li>
                     <SidebarItem
-                        name="Expenses"
-                        routeName="expenses.index"
-                        icon="fas fa-book"
+                        name="Employees"
+                        routeName="employees.index"
+                        icon="fas fa-house-user"
                     />
-
                     <SidebarItem
                         name="Settings"
                         routeName="profile.edit"
                         icon="fas fa-tools"
                     />
-                </ul>
+
+                    </ul>
+
 
                 <!-- Divider -->
                 <hr class="my-4 md:min-w-full"/>
